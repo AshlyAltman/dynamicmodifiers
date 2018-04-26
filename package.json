@@ -1,0 +1,21 @@
+{
+  "name": "dynamicmodifiers",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "ashly altman",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "live-server": "^1.2.0",
+    "npm": "^5.8.0",
+    "sass": "^1.1.1"
+  }
+}
